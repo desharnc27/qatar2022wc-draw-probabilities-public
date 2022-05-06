@@ -19,5 +19,5 @@ Note: don't add any spaces other than those already present in the name of a cou
 Note: at least one of the subset must contain a single element (no enumeration,no wild card).
 Reason: it's too complicated for this app to calculate probabilities for scenarios which do not share a common element.
 Examples:
-*,*,Sen,*,Can/Ec -> Ok, will be computed becuase Senegal appears without any other team of its pot.
+*,*,*,Sen,Can/Ec -> Ok, will be computed because Senegal appears without any other team of its pot.
 B/F,arg/bra,*,Mor/Jap,* -> will return an error.
